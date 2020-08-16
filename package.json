@@ -2,7 +2,7 @@
   "name": "free-youtube-thumbnail",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,8 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.17.1",
-    "helmet": "^4.1.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.4"
