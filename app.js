@@ -19,16 +19,27 @@ function onClick(e) {
 
 function setImageUrl(url) {
   const urlSplit = url.split('?v=');
-
-  appendZero(urlSplit[1], zero_div);
-  appendOne(urlSplit[1], one_div);
-  appendTwo(urlSplit[1], two_div);
-  appendThree(urlSplit[1], three_div);
-  appendMaxresdefault(urlSplit[1], maxresdefault_div);
-  appendSddefault(urlSplit[1], sddefault_div);
-  appendHqdefault(urlSplit[1], hqdefault_div);
-  appendMqdefault(urlSplit[1], mqdefault_div);
-  appendDefault(urlSplit[1], default_div);
+  let imgId = '';
+  if (urlSplit[1] !== undefined) {
+    imgId = urlSplit[1];
+  } else {
+    const shortUrlSplit = url.split('/');
+    imgId = shortUrlSplit[3];
+    if (imgId === undefined) {
+      alert("동영상 주소가 적절하지 않습니다. 다시 확인해주세요!");
+    }
+  }
+  if (imgId !== undefined) {
+    appendZero(imgId, zero_div);
+    appendOne(imgId, one_div);
+    appendTwo(imgId, two_div);
+    appendThree(imgId, three_div);
+    appendMaxresdefault(imgId, maxresdefault_div);
+    appendSddefault(imgId, sddefault_div);
+    appendHqdefault(imgId, hqdefault_div);
+    appendMqdefault(imgId, mqdefault_div);
+    appendDefault(imgId, default_div);
+  }
 }
 
 function removeChild(el) {
