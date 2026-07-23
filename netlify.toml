@@ -3,7 +3,8 @@
   publish = "out"
 
 [build.environment]
-  NODE_VERSION = "22"
+  NODE_VERSION = "26"
+  NPM_VERSION = "12"
   NETLIFY_NEXT_PLUGIN_SKIP = "true"
 
 [[redirects]]
