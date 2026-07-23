@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "YouTubeサムネイルダウンロード",
+    "description": "YouTubeのサムネイルを無料でダウンロード。高解像度から標準まで、すべてのサイズのサムネイルをすぐに取得できます。",
+    "keywords": "youtubeサムネイルダウンロード,youtubeサムネイル取得,youtube,サムネイル,ダウンロード,無料"
+  },
+  "hero": {
+    "title": "YouTubeサムネイルダウンロード",
+    "subtitle": "YouTubeのURLを貼り付けて、サムネイルをすぐにダウンロードしてください。",
+    "notice": "一部の動画では提供されていない画像サイズがある場合があります。"
+  },
+  "input": {
+    "formatHint": "以下のURL形式に対応しています:",
+    "placeholder": "YouTubeのURLをここに貼り付けてください…",
+    "button": "サムネイルを取得"
+  },
+  "alerts": {
+    "empty": "動画のURLを入力してください",
+    "invalid": "有効なYouTube動画IDが見つかりません。URLを確認してください。"
+  },
+  "thumbnails": {
+    "zero": "背景 (480×360)",
+    "one": "開始フレーム (120×90)",
+    "two": "中間フレーム (120×90)",
+    "three": "終了フレーム (120×90)",
+    "maxresdefault": "最高解像度 (最大1920×1080)",
+    "sddefault": "SD — 640×480",
+    "hqdefault": "HQ — 480×360",
+    "mqdefault": "MQ — 320×180",
+    "default": "標準 — 120×90"
+  },
+  "download": "ダウンロード",
+  "footer": "無料YouTubeサムネイルダウンローダー",
+  "privacyLink": "プライバシーポリシー",
+  "privacy": {
+    "title": "プライバシーポリシー",
+    "lastUpdated": "最終更新日：2026年7月",
+    "intro": "このプライバシーポリシーは、free-youtube-thumbnail.comがサービス利用時に情報をどのように収集・使用・保護するかを説明します。",
+    "s1t": "1. 収集する情報",
+    "s1b": "当サービスは個人情報を直接収集しません。ただし、以下に説明するサードパーティサービスがデータを収集する場合があります。",
+    "s2t": "2. Google Analytics",
+    "s2b": "サイトの利用状況を把握するためにGoogle Analyticsを使用しています。Google AnalyticsはIPアドレス、ブラウザの種類、訪問ページ、滞在時間などを収集します。このデータは匿名化され、サービス改善のみに使用されます。",
+    "s3t": "3. Google AdSense",
+    "s3b": "広告配信のためにGoogle AdSenseを使用しています。Google AdSenseはCookieとウェブビーコンを使用して、ユーザーの過去の訪問履歴に基づいて広告を配信します。Google広告設定からパーソナライズ広告を無効にすることができます。",
+    "s4t": "4. Cookie",
+    "s4b": "Cookieはデバイスに保存される小さなデータファイルです。Google AnalyticsとGoogle AdSenseを通じてCookieを使用します。ブラウザの設定でCookieを制御することができます。",
+    "s5t": "5. YouTubeデータ",
+    "s5b": "このサービスはYouTubeサーバー（img.youtube.com）の公開されているサムネイル画像にアクセスします。YouTubeコンテンツを保存、コピー、再配布することはありません。すべてのサムネイルURLは入力された動画IDをもとにクライアント側で生成されます。",
+    "s6t": "6. ポリシーの変更",
+    "s6b": "このプライバシーポリシーは随時更新される場合があり、変更はこのページに掲載されます。",
+    "s7t": "7. お問い合わせ",
+    "s7b": "プライバシーポリシーに関するお問い合わせはGitHubからご連絡ください: github.com/Kameals"
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "meta": {
+    "title": "YouTube Thumbnail Downloader",
+    "description": "Download YouTube thumbnails for free. Extract thumbnails in all sizes from high-resolution to standard.",
+    "keywords": "youtube thumbnail downloader,youtube thumbnail extractor,youtube,thumbnail,download,free"
+  },
+  "hero": {
+    "title": "YouTube Thumbnail Downloader",
+    "subtitle": "Paste a YouTube URL and download any thumbnail instantly.",
+    "notice": "Some videos may not have all image sizes available."
+  },
+  "input": {
+    "formatHint": "All of the following URL formats are supported:",
+    "placeholder": "Paste YouTube URL here…",
+    "button": "Get Thumbnails"
+  },
+  "alerts": {
+    "empty": "Please enter a video URL",
+    "invalid": "Couldn't find a valid YouTube video ID. Please check the URL."
+  },
+  "thumbnails": {
+    "zero": "Background (480×360)",
+    "one": "Start frame (120×90)",
+    "two": "Mid frame (120×90)",
+    "three": "End frame (120×90)",
+    "maxresdefault": "Max resolution (up to 1920×1080)",
+    "sddefault": "SD — 640×480",
+    "hqdefault": "HQ — 480×360",
+    "mqdefault": "MQ — 320×180",
+    "default": "Default — 120×90"
+  },
+  "download": "Download",
+  "footer": "Free YouTube Thumbnail Downloader",
+  "privacy": {
+    "title": "Privacy Policy",
+    "lastUpdated": "Last updated: July 2026",
+    "intro": "This Privacy Policy explains how free-youtube-thumbnail.com collects, uses, and protects your information when you use our service.",
+    "s1t": "1. Information We Collect",
+    "s1b": "We do not collect personal information directly. However, third-party services integrated into this site may collect data as described below.",
+    "s2t": "2. Google Analytics",
+    "s2b": "We use Google Analytics to understand how visitors use our site. Google Analytics collects information such as your IP address, browser type, pages visited, and time spent on the site. This data is anonymized and used only for improving the service. You can opt out via the Google Analytics Opt-out Browser Add-on.",
+    "s3t": "3. Google AdSense",
+    "s3b": "We use Google AdSense to display advertisements. Google AdSense uses cookies and web beacons to serve ads based on prior visits to this or other websites. You may opt out of personalized advertising by visiting Google Ads Settings.",
+    "s4t": "4. Cookies",
+    "s4b": "Cookies are small data files placed on your device. We use cookies through Google Analytics and Google AdSense as described above. You can control cookies through your browser settings.",
+    "s5t": "5. YouTube Data",
+    "s5b": "This service accesses publicly available YouTube thumbnail images from YouTube servers (img.youtube.com). We do not store, copy, or redistribute any YouTube content. All thumbnail URLs are generated client-side using the video ID you provide.",
+    "s6t": "6. Changes to This Policy",
+    "s6b": "We may update this Privacy Policy from time to time. Changes will be posted on this page.",
+    "s7t": "7. Contact",
+    "s7b": "If you have any questions, please contact us via GitHub: github.com/Kameals"
+  },
+  "privacyLink": "Privacy Policy"
+}

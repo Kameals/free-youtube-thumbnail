@@ -2,16 +2,32 @@
   "name": "free-youtube-thumbnail",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "typecheck": "tsc --noEmit"
   },
   "keywords": [],
-  "author": "",
+  "author": "kameals",
   "license": "ISC",
-  "dependencies": {},
+  "engines": {
+    "node": ">=20.9.0 <27"
+  },
+  "dependencies": {
+    "next": "^16.2.11",
+    "next-intl": "^4.13.4",
+    "react": "^19.2.8",
+    "react-dom": "^19.2.8"
+  },
   "devDependencies": {
-    "nodemon": "^2.0.4",
-    "ssri": ">=8.0.1"
+    "@tailwindcss/postcss": "^4.3.3",
+    "@tailwindcss/typography": "^0.5.20",
+    "@types/node": "^26.1.1",
+    "@types/react": "^19.2.17",
+    "@types/react-dom": "^19.2.3",
+    "tailwindcss": "^4.3.3",
+    "typescript": "7.0.2"
   }
 }
